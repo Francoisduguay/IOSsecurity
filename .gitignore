@@ -1,3 +1,25 @@
+# macOS
+.DS_Store
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Xcode
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# Secrets and signing material: never commit these
+.env
+*.p8
+*.p12
+*.pem
+*.key
+*.mobileprovision
+
+# ---- GitHub Swift template (from the initial commit) ----
+
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
