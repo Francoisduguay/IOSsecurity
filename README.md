@@ -27,6 +27,7 @@ The Mac verifies everything and shows a live round log.
 
 - [x] Repository, team rules, prompt log
 - [x] First security feature: signed checkpoint QR codes, with unit tests
+- [x] Signed scan reports with replay protection (timestamp, nonce, counter) and the station's scan verifier, with unit tests
 - [ ] J1: scope and STRIDE table
 - [ ] J2: architecture diagram and crypto choices
 - [ ] J3: MVP running on the iPhone
@@ -40,7 +41,7 @@ cd Core
 swift test
 ```
 
-Expected result: `Executed 5 tests, with 0 failures`.
+Expected result: `Executed 24 tests, with 0 failures`.
 
 ## Team rules
 
